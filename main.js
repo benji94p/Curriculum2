@@ -13,7 +13,4 @@ function toggleBurgerMenu () {
     else {
          modal.classList.add('hide');
     }
-        // if (modal.classList.contains('hide')) {
-    // The box that we clicked has a class of bad so let's remove it and add the good class
-   //modal.classList.remove('hide');
   }
