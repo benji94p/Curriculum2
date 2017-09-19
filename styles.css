@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 
+
 }
 .test-layout {
     margin-top: 30px;
@@ -197,9 +198,52 @@ text-decoration: none;
 .burger_nav ul li:hover > .sub
 {
 	display:block;
+    list-style-type: none;
 }
 .burger_nav ul .sub {
     display: none;
+}
+
+.modal a {
+    text-decoration: none;
+}
+.primary {
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+}
+.primary li {
+    margin-top: 10px;
+    color: white;
+}
+.main_link {
+    color: black;
+    text-transform: uppercase;
+}
+.li_style {
+    width: 60vw;margin: 0 auto;height: auto; margin-bottom: 30px;/* text-align: center; text-transform: uppercase;*/
+    list-style-type: none;
+}
+.modal .sub a{
+    color: white;
+}
+.modal .sub a:hover{
+    color: grey;
+}
+
+.sub {
+    text-decoration: none;
+    color: black;s
+}
+
+
+.boxmenu {
+    height: 146px;
+    width: 70vw;
+}
+.boxmenu1 {
+    background-color: blue;
+    height: 147px;
 }
 
 /*ONSITE MOBILE */
