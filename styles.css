@@ -24,6 +24,7 @@ header {
     margin-left: 0;
     margin-top: 25px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .card_container {
@@ -42,21 +43,30 @@ header {
     text-align: center;
     margin-top: 100px;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 
 /*LANDING MOBILE */
 @media (max-width: 1200px) {
-  .how_button {
-    display: none;
-}
     .header_landing {
+    font-size:20px;
+}
+    @media (max-width: 1200px) {
+        .how_button {
     display: none;
 }
-
-
+    }
 }
+@media (max-width: 700px) {
+    .header_landing {
+        display: none;
+    }
+}
+
+
+
+
 
 .landing_bg {
     background-image: url(imgs/9612c2a2f68dca62aacd402554290988.jpg);
@@ -195,6 +205,7 @@ header {
     /*background-color: rgb(0,0,0); /* Fallback color */
     background-image: url(imgs/9612c2a2f68dca62aacd402554290988.jpg);
 }
+
 .cross-btn{
     display: none;
 }
@@ -235,7 +246,7 @@ header {
     color: white;
 }
 .modal .sub a:hover{
-    color: grey;
+    color: black;
 }
 
 .sub {
@@ -253,7 +264,12 @@ header {
     height: 147px;
 }
 
+main {
+    padding-bottom: 100px;
+}
 /*ONSITE MOBILE */
+
+
 svg {
     margin: 10px 10px
 }
@@ -263,7 +279,8 @@ svg {
 .header_onsite {
     text-align: center;
     font-size: 22px;
-    margin-top: 50px;
+    padding-top: 50px;
+    margin-top: 0;
 }
 
 .content_sub {
@@ -300,6 +317,7 @@ svg {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-left: 0;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media (max-width: 900px) {
