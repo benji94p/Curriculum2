@@ -23,3 +23,28 @@ function closeBurger () {
     modal.classList.add('hide');
     document.querySelector(".hamburger_btn").style.display ="block";
 }
+
+/* DYNAMIC JSON GALLERY PHOTO */
+
+let data_json = "/image_path.json";
+let templateGallery = document.querySelector(".templateGallery").content;
+let clonedDiv = document.querySelector('.clonedGallery');
+
+fetch(data_json)
+.then((resp) => resp.json())
+.then(function(data) {
+    console.log(data);
+
+    data.forEach(createObjects);
+
+});
+
+
+function createObjects (object_prop) {
+    let cloneGallery = templateGallery.cloneNode(true);
+    cloneGallery.querySelector('.image_gallery').src=object_prop.src;
+    clonedDiv.appendChild(cloneGallery);
+}
+
+/* Checked NAV when onsite */
+
