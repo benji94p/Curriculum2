@@ -282,6 +282,12 @@ svg {
     padding-top: 50px;
     margin-top: 0;
 }
+.subheader_onsite {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 50px;
+    margin-top: 0;
+}
 
 .content_sub {
     text-align: center;
