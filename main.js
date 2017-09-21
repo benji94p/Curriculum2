@@ -48,3 +48,10 @@ function createObjects (object_prop) {
 
 /* Checked NAV when onsite */
 
+let examCard= document.querySelector('.exam');
+examCard.addEventListener("click",openNewTab);
+
+function openNewTab () {
+    window.location.href="HTMLPages/page2sub7.html";
+    console.log("dz");
+}

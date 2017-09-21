@@ -344,6 +344,7 @@ svg {
     padding: 0;
     height: 50px;
     margin: 15px 15px;
+    display: none;
 }
 
 .onsite_header {
@@ -484,4 +485,11 @@ main.current{
 }
 #primary_nav_wrap ul a:active {
     border: 1x black solid;
+}
+
+.link_photo {
+    cursor: none;
+}
+.exam {
+    cursor: pointer;
 }
