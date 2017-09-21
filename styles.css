@@ -360,7 +360,7 @@ svg {
 .onsite_header {
     background-image: url(imgs/Background.jpg);
     background-attachment: fixed;
-    background-position:right;
+    background-position:top;
 
     height: 143px;
 
