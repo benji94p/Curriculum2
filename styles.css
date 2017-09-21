@@ -301,7 +301,7 @@ svg {
 .header_onsite {
     padding-top: 70px;
     margin-top: 0;
-    font-family: 'Sabon LT Std', 'Hoefler Text', 'Palatino Linotype', 'Book Antiqua', serif;
+    font-family: Verdana, Geneva, sans-serif;
 	font-size: 40px;
 	font-style: normal;
 	font-variant: normal;
@@ -352,7 +352,7 @@ padding-bottom: 15vw;
 .onsite_header {
     background-image: url(imgs/Background.jpg);
     background-attachment: fixed;
-    background-position:right;
+    background-position:top;
 
     height: 143px;
 
@@ -410,7 +410,6 @@ padding-bottom: 15vw;
 	font-size:12px;
 	line-height:39px;
 	padding:0 15px;
-    text-align: center;
 
 }
 #primary_nav_wrap ul li.current-menu-item
