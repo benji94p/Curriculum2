@@ -301,7 +301,7 @@ svg {
 .header_onsite {
     padding-top: 70px;
     margin-top: 0;
-    font-family: 'Sabon LT Std', 'Hoefler Text', 'Palatino Linotype', 'Book Antiqua', serif;
+    font-family: Verdana, Geneva, sans-serif;
 	font-size: 40px;
 	font-style: normal;
 	font-variant: normal;
