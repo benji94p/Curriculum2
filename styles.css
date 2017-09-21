@@ -435,4 +435,9 @@ div.desc {
     text-align: center;
 }
 
-
+main.current{
+   border: 1px solid black;
+}
+#primary_nav_wrap ul a:active {
+    border: 1x black solid;
+}
