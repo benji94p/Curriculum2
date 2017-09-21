@@ -7,6 +7,16 @@ body {
 
 
 }
+p {
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .test-layout {
     margin-top: 30px;
 }
@@ -85,6 +95,8 @@ header {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
+    padding-top: 150px;
+    margin-top: 0;
 }
 .card {
         width: 26vw;
@@ -119,9 +131,7 @@ header {
 
 
 .card {
-  position: relative;
-    border:1px solid #979797;
-    box-shadow:5px 5px 4px 0 rgba(0,0,0,0.50);
+    position: relative;
     height:230px;
 }
 
@@ -278,20 +288,32 @@ svg {
 
 .header_onsite {
     text-align: center;
-    font-size: 22px;
     padding-top: 50px;
     margin-top: 0;
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+
 }
 .subheader_onsite {
     text-align: center;
-    font-size: 14px;
     padding-top: 50px;
     margin-top: 0;
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
 }
 
 .content_sub {
-    text-align: center;
     margin: 40px 200px ;
+    padding-bottom: 400px;
+    margin-bottom: 0;
 }
 
 .how_button {
