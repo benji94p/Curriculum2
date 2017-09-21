@@ -4,8 +4,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-
-
+}
+p {
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .test-layout {
     margin-top: 30px;
@@ -26,7 +34,10 @@ header {
     margin-left: 20px;
     cursor: pointer;
 }
-
+li{ list-style-type: none;}
+.mandatory{
+    text-align: justify;
+}
 .card_container {
     margin-bottom: 50px;
 }
@@ -85,6 +96,8 @@ header {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
+    padding-top: 150px;
+    margin-top: 0;
 }
 .card {
         width: 26vw;
@@ -119,9 +132,7 @@ header {
 
 
 .card {
-  position: relative;
-    border:1px solid #979797;
-    box-shadow:5px 5px 4px 0 rgba(0,0,0,0.50);
+    position: relative;
     height:230px;
 }
 
@@ -155,6 +166,7 @@ header {
   width: 100%;
   height:0;
   transition: .5s ease;
+
 }
 
 
@@ -277,15 +289,46 @@ svg {
 /*ONSITE DESKTOP*/
 
 .header_onsite {
-    text-align: center;
-    font-size: 22px;
+    padding-top: 70px;
+    margin-top: 0;
+    font-family: 'Sabon LT Std', 'Hoefler Text', 'Palatino Linotype', 'Book Antiqua', serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bolder;
+
+}
+.subheader_onsite {
     padding-top: 50px;
     margin-top: 0;
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(77, 77, 77);
+
 }
 
 .content_sub {
-    text-align: center;
+<<<<<<< HEAD
     margin: 40px 200px ;
+<<<<<<< HEAD
+
+=======
+=======
+    margin-bottom: 200px ;
+>>>>>>> origin/master
+    padding-bottom: 400px;
+    margin-bottom: 0;
+>>>>>>> origin/master
 }
 
 .how_button {
@@ -364,6 +407,7 @@ svg {
 	font-size:12px;
 	line-height:39px;
 	padding:0 15px;
+    text-align: center;
 
 }
 #primary_nav_wrap ul li.current-menu-item
